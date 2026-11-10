@@ -11,7 +11,7 @@ CREATE TABLE pacientes (
     peso DECIMAL(5, 2) NOT NULL,
     imc DECIMAL(4, 2) NOT NULL,
     status VARCHAR(50) NOT NULL,
-    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP
+    criado_em TIMESTAMP DEFAULT CURRENT_TIMESTAMP   
 );
 
 INSERT INTO pacientes (nome, idade, altura, peso, imc, status) VALUES
